@@ -1,0 +1,55 @@
+
+
+
+/* color */
+
+.demo-section .single-item .text-box h3 a:hover,
+.inner-page-section .single-item .text-box h3 a:hover,
+.feature-section h2 span,
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > .megamenu li > a:hover
+
+{
+  color: var(--theme-color);
+}
+
+
+/** background **/
+
+button.rtl,
+button.ltr,
+.theme-btn
+
+{
+  background: var(--theme-color);
+}
+
+
+
+
+/** border-color **/
+
+
+
+{
+  border-color: var(--theme-color) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

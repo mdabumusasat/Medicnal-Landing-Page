@@ -1,0 +1,169 @@
+/* Responsive Css */
+
+
+@media only screen and (max-width: 1200px){
+
+  .main-menu,
+  .sticky-header,
+  .main-header.style-one .outer-container:before{
+    display: none !important;
+  }
+
+  .menu-area .mobile-nav-toggler {
+    display: block;
+    padding: 10px;
+  }
+
+  .megamenu ul li:first-child{
+    display: none;
+  }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+  .main-menu .navigation > li > ul,
+  .main-menu .navigation > li > ul > li > ul,
+  .main-menu .navigation > li > .megamenu{
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+  }
+}
+
+
+
+@media only screen and (max-width: 991px){
+
+  .elementor-section .image-box,
+  .header-style-section .content-box,
+  .deals-section .content-box,
+  .instructions-section .content-box{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .view-section .content-box,
+  .ads-section .content-box,
+  .designs-section .content-box,
+  .elementor-section .content-box{
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+  .designs-section{
+    padding: 70px 0px 0px 0px;
+  }
+
+  .feature-section,
+  .demo-section{
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+
+  .instructions-section,
+  .view-section,
+  .header-style-section,
+  .elementor-section,
+  .deals-section{
+    padding: 70px 0px;
+  }
+
+  .ads-section .image-box .image{
+    margin-bottom: 20px;
+  }
+
+  .ads-section{
+    padding: 70px 0px 50px 0px;
+  }
+
+  .inner-page-section{
+    padding: 70px 0px 30px 0px;
+  }
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+  .pagination li a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 499px){
+
+  .mobile-menu{
+    width: 100%;
+  }
+
+  .main-header .outer-box{
+    display: block;
+  }
+
+  .main-header .outer-box .logo-box{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .main-header .menu-area{
+    justify-content: space-between;
+  }
+
+  .main-header .btn-box{
+    margin: 0px !important;
+  }
+
+  .banner-section .content-box h2{
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .designs-section .image-box{
+    margin-left: 0px;
+  }
+
+  .elementor-section .image-box .image-1 {
+    top: -30px;
+  }
+  .elementor-section .image-box .image-1 img {
+    height: 254px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
